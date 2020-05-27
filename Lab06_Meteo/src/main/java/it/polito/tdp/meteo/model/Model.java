@@ -25,6 +25,7 @@ public class Model {
 		MeteoDAO meteoDAO= new MeteoDAO();
 		this.leCitta=meteoDAO.getAllCitta();
 		}
+	
 
 	// of course you can change the String output with what you think works best
 	//se non delegassi a meteoDAO il calcolo dell'umidità media
